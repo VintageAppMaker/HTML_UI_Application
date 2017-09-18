@@ -1,0 +1,1 @@
+SELECT a.pno AS 번호, a.title AS 제목, a.filepath AS 경로명, a.detailinfo AS 상세설명, b.title as 종류 FROM t_scrap_data a, t_basic b WHERE a.pno = 5      and a.f_spec = b.pno  order by a.pno desc

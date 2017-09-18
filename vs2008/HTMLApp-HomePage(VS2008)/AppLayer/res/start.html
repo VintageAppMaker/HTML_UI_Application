@@ -1,0 +1,210 @@
+<HTML>
+
+<meta http-equiv=Content-Type content="text/html;charset=euc-kr">
+<meta http-equiv=Cache-Control content=No-Cache>
+<meta http-equiv=Pragma	content=No-Cache>
+
+<style type="text/css">
+<!--
+A.ssmItems:link		{color:black;text-decoration:none;}
+A.ssmItems:hover	{color:black;text-decoration:none;}
+A.ssmItems:active	{color:black;text-decoration:none;}
+A.ssmItems:visited	{color:black;text-decoration:none;}
+//-->
+</style>
+
+<style type="text/css">
+    BODY{
+           background-color: #FFFFDD;
+		   color: black;
+		   font-family: 굴림체;
+           font-size: 9pt; 
+		   scrollbar-3dlight-color:black;
+           scrollbar-arrow-color:gray;
+           scrollbar-base-color:black;
+           scrollbar-darkshadow-color:gray;
+           scrollbar-face-color:black;
+           scrollbar-highlight-color:gray;
+           scrollbar-shadow-color:white;
+    }
+    
+    
+	H1{
+           text-decoration: NONE;
+           font-family: 굴림; 
+           font-size: 12pt;duxms
+           color: #777777; 
+	}
+    
+    A {
+           text-decoration: NONE;
+           font-family: 굴림; 
+           font-size: 9pt;
+           color: #777777; 
+    }
+    
+    A:hover {
+           cursor: hand;
+           text-decoration: UNDERLINE;
+           font-family: 굴림; 
+           font-size: 9pt; 
+           color: red;
+    }  
+    
+    UL {
+           text-decoration: BOLD;
+           position: relative;
+           list-style-type: disc;
+           font-family: 굴림체; 
+           font-size: 10pt;
+           color: #905736;
+    } 
+    
+    listitem {
+           position: relative;
+           font-family: 굴림; 
+           font-size: 10pt;
+           color: yellow;
+    } 
+   
+    SPAN.yellow {
+          font-size: 10pt; 
+          font-weight: 700;
+          font-family: 'Arial Black';
+          color: #FDFFEF; 
+          letter-spacing: 0.3em;
+    }
+
+    SPAN.TITLE {
+          font-size: 20pt; 
+          font-weight: 700;
+          font-family: 'Arial Black';
+          color: #FccFec; 
+          letter-spacing: 0.3em;
+    }
+    
+    SPAN.black {
+          font-size: 10pt; 
+          font-weight: 600;
+          font-family: 돋움, Arial;
+          color: black;
+          text-decoration: underline;
+          letter-spacing: 1.7em;
+    }
+ 
+    SPAN.red {
+          font-size: 19pt;
+          font-weight: 600;
+          font-family: Arial;
+          font-style: italic;
+          color: red; 
+    }
+    
+    SPAN.URL {
+          font-size: 19pt;
+          font-weight: 600;
+          font-family: Arial;
+          font-style: italic;
+          color: white; 
+    }
+    
+    
+    #button{
+           position: relative;
+           font-family: 굴림;
+           font-size: 9pt;
+           text-decoration: BOLD;
+           background-color: white;
+           color: black;
+           align: center;
+           width:  50;
+           height: 30;
+           border-size: 6;
+           border-style: ridge;
+           border-color: gray;
+          
+    }
+    
+    #btn{
+           position: relative;
+	   font-family: 굴림체;
+	   font-size: 9pt;
+	   text-decoration: BOLD;
+	   background-color: white;
+	   color: white;
+	   align: center;
+	   width:  50;
+	   height: 50;
+	   border-size: 3;
+       border-style: ridge;
+	   border-color: gray;
+    }
+
+    #title{
+           position: relative;
+           font-family: 굴림체;
+           font-size: 16Pt;
+           text-decoration: BOLD;
+           color: black;
+           align: center;
+           width:  350;
+           height: 20;
+    }
+    
+    #subtitle{
+           position: relative;
+           font-family: 굴림체;
+           font-size: 10pt;
+           text-decoration: BOLD;
+           color: black;
+           align: center;
+           width:  200;
+           
+    }
+    
+    #board{
+           position: relative;
+           font-family: 굴림;
+           font-size: 9pt;
+           text-decoration: BOLD;
+           background-color: white;
+           background-image: url(image/005.jpg);
+           width:  350;
+           height: 100;
+    }
+
+    
+
+</style>
+
+
+
+<BODY marginheight=0 topmargin=0  ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
+
+<!--화면 인트로 관련 JavaScript-->
+<br><center>
+<H1>JScript Runner</H1>
+<br>
+</center>
+    <DIV id = 'BOARD_1' style= "font-family: 굴림체;font-size: 9pt;">		
+    </DIV>
+
+<script language="JavaScript1.2">
+function ProtectReflesh() {
+    var ieKey = event.keyCode;
+    if (ieKey == 116) event.keyCode = 07;
+}
+
+document.onkeydown = ProtectReflesh; 
+
+</script>
+
+<script language="JavaScript1.2">
+function GoURL(url) {
+    location.href = url;
+}
+</script>
+
+</BODY>
+
+</HTML>

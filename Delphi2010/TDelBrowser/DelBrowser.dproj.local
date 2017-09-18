@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010/04/23 16:13:09.209.pas,C:\Users\snake\Documents\RAD Studio\Projects\Unit2.pas=C:\잠시모아놓고 옮기는것들\TDelBrowser\frmMain.pas</Transaction>
+    <Transaction>2010/04/23 16:13:09.209.dfm,C:\Users\snake\Documents\RAD Studio\Projects\Unit2.dfm=C:\잠시모아놓고 옮기는것들\TDelBrowser\frmMain.dfm</Transaction>
+    <Transaction>2010/04/23 16:13:17.024.dproj,C:\Users\snake\Documents\RAD Studio\Projects\Project2.dproj=C:\잠시모아놓고 옮기는것들\TDelBrowser\DelBrowser.dproj</Transaction>
+    <Transaction>2010/04/23 16:28:51.955.pas,C:\잠시모아놓고 옮기는것들\TDelBrowser\Unit1.pas=C:\잠시모아놓고 옮기는것들\TDelBrowser\IEBrowser.pas</Transaction>
+    <Transaction>2010/04/23 16:53:15.714.rc,C:\잠시모아놓고 옮기는것들\TDelBrowser\New1.html.rc=C:\잠시모아놓고 옮기는것들\TDelBrowser\HTML.rc</Transaction>
+    <Transaction>2010-04-24 11:47:25.133.pas,D:\빠르게진행하는개발과제\2010-04-23금 TDelBrowser\Unit1.pas=D:\빠르게진행하는개발과제\2010-04-23금 TDelBrowser\iAppBrower.pas</Transaction>
+    <Transaction>2010-04-24 11:50:17.258.pas,D:\빠르게진행하는개발과제\2010-04-23금 TDelBrowser\iAppBrower.pas=D:\빠르게진행하는개발과제\2010-04-23금 TDelBrowser\iAppBrowser.pas</Transaction>
+    <Transaction>2010/04/26 10:25:12.130.pas,C:\잠시모아놓고 옮기는것들\TDelBrowser\Unit1.pas=C:\잠시모아놓고 옮기는것들\TDelBrowser\StateManager.pas</Transaction>
+    <Transaction>2010/04/26 14:57:44.269.pas,C:\잠시모아놓고 옮기는것들\TDelBrowser\Unit1.pas=C:\잠시모아놓고 옮기는것들\TDelBrowser\FSM_Unit.pas</Transaction>
+    <Transaction>2010/04/26 15:52:00.097.pas,C:\잠시모아놓고 옮기는것들\TDelBrowser\StateManager.pas=C:\잠시모아놓고 옮기는것들\TDelBrowser\MainPage.pas</Transaction>
+    <Transaction>2010/04/26 15:55:55.890.pas,C:\잠시모아놓고 옮기는것들\TDelBrowser\Unit1.pas=C:\잠시모아놓고 옮기는것들\TDelBrowser\PageSelector.pas</Transaction>
+    <Transaction>2010/04/26 20:35:27.603.pas,C:\잠시모아놓고 옮기는것들\TDelBrowser\FSM_Unit.pas=</Transaction>
+    <Transaction>2010/04/26 20:41:32.611.pas,C:\잠시모아놓고 옮기는것들\TDelBrowser\FSM_Unit.pas=</Transaction>
+    <Transaction>2010/04/26 20:46:47.943.pas,C:\잠시모아놓고 옮기는것들\TDelBrowser\MainPage.pas=</Transaction>
+    <Transaction>2010/04/27 20:38:03.869.pas,C:\업무정리\공부용자료\TDelBrowser\Unit1.pas=C:\업무정리\공부용자료\TDelBrowser\iDBEng.pas</Transaction>
+    <Transaction>2010/04/27 20:45:10.153.pas,C:\업무정리\공부용자료\TDelBrowser\Unit1.pas=C:\업무정리\공부용자료\TDelBrowser\TDBEng.pas</Transaction>
+    <Transaction>2010/04/28 20:45:34.299.pas,C:\업무정리\공부용자료\TDelBrowser\Unit1.pas=C:\업무정리\공부용자료\TDelBrowser\OutLookUnit.pas</Transaction>
+    <Transaction>2010/04/30 10:06:27.801.pas,C:\업무정리\공부용자료\TDelBrowser\OutLookUnit.pas=</Transaction>
+    <Transaction>2010/04/30 17:58:26.357.rc,C:\업무정리\공부용자료\TDelBrowser\HTML.rc=</Transaction>
+  </Transactions>
+</BorlandProject>

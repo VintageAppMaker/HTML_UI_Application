@@ -1,0 +1,315 @@
+<html>
+<head>
+<meta http-equiv="Pragma" content="no-cache">
+
+<title></title>
+<meta name="generator" content="Namo WebEditor v3.0">
+<style type="text/css">
+    BODY{
+           background-image:  url(image/left.gif);
+           
+           background-color:  #AA99BB
+           scrollbar-3dlight-color:black;
+           scrollbar-arrow-color:gray;
+           scrollbar-base-color:black;
+           scrollbar-darkshadow-color:gray;
+           scrollbar-face-color:black;
+           scrollbar-highlight-color:gray;
+           scrollbar-shadow-color:white;
+    }
+    
+    
+    
+    
+    A {
+           text-decoration: NONE;
+           font-family: 굴림; 
+           font-size: 9pt;
+           color: #777777; 
+    }
+    
+    A:hover {
+           cursor: hand;
+           text-decoration: BOLD;
+           font-family: 굴림; 
+           font-size: 9pt; 
+           color: red;
+    }  
+    
+    UL {
+           text-decoration: BOLD;
+           position: relative;
+           list-style-type: disc;
+           font-family: 굴림; 
+           font-size: 10pt;
+           color: #007766;
+    } 
+    
+    listitem {
+           position: relative;
+           font-family: 굴림; 
+           font-size: 10pt;
+           color: yellow;
+    } 
+   
+    SPAN.yellow {
+          font-size: 10pt; 
+          font-weight: 700;
+          font-family: 'Arial Black';
+          color: #FDFFEF; 
+          letter-spacing: 0.3em;
+    }
+
+    SPAN.TITLE {
+          font-size: 20pt; 
+          font-weight: 700;
+          font-family: 'Arial Black';
+          color: #FccFec; 
+          letter-spacing: 0.3em;
+    }
+    
+    SPAN.black {
+          font-size: 10pt; 
+          font-weight: 600;
+          font-family: 돋움, Arial;
+          color: black;
+          text-decoration: underline;
+          letter-spacing: 1.7em;
+    }
+ 
+    SPAN.red {
+          font-size: 19pt;
+          font-weight: 600;
+          font-family: Arial;
+          font-style: italic;
+          color: red; 
+    }
+    
+    SPAN.URL {
+          font-size: 19pt;
+          font-weight: 600;
+          font-family: Arial;
+          font-style: italic;
+          color: white; 
+    }
+    
+    
+    #button{
+           position: relative;
+           font-family: 굴림;
+           font-size: 9pt;
+           text-decoration: BOLD;
+           background-color: white;
+           color: black;
+           align: center;
+           width:  50;
+           height: 30;
+           border-size: 6;
+           border-style: ridge;
+           border-color: gray;
+          
+    }
+    
+    #btn{
+           position: relative;
+	   font-family: 굴림체;
+	   font-size: 9pt;
+	   text-decoration: BOLD;
+	   background-color: white;
+	   color: white;
+	   align: center;
+	   width:  50;
+	   height: 50;
+	   border-size: 3;
+     	   border-style: ridge;
+	   border-color: gray;
+    }
+
+    #title{
+           position: relative;
+           font-family: 굴림체;
+           font-size: 16Pt;
+           text-decoration: BOLD;
+           color: black;
+           align: center;
+           width:  350;
+           height: 20;
+    }
+    
+    #subtitle{
+           position: relative;
+           font-family: 굴림체;
+           font-size: 10pt;
+           text-decoration: BOLD;
+           color: black;
+           align: center;
+           width:  200;
+           
+    }
+    
+    #board{
+           position: relative;
+           font-family: 굴림;
+           font-size: 9pt;
+           text-decoration: BOLD;
+           background-color: white;
+           background-image: url(image/005.jpg);
+           width:  350;
+           height: 100;
+    }
+</style>
+
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="purple" alink="red" oncontextmenu="return false">
+<SCRIPT SRC="ssm.js" language="JavaScript1.2">
+
+//Dynamic-FX slide in menu v6.5 (By maXimus, http://maximus.ravecore.com/)
+//Updated July 8th, 03' for doctype bug
+//For full source, and 100's more DHTML scripts, visit http://www.dynamicdrive.com
+
+</SCRIPT>
+
+<SCRIPT SRC="ssmItems.js" language="JavaScript1.2"></SCRIPT>
+
+<!--화면 인트로 관련 JavaScript-->
+
+<center>
+
+<!--화면 인트로 관련 JavaScript-->
+<br>
+<table border="0" cellspacing="0" width =570>
+    <TR><TD colspan = "2">
+        <h1>스크랩(scrap)</h1>
+	</TD><TD></TD></TR>
+    <TR>
+<TD>
+<img src = "image/12.gif">
+</TD>
+<TD>
+ <div style = "font-size: 10pt; font-family: 굴림; color: black; filter:shadow(color=#99FF00);"><b>스크랩정보..</b></div><DIV id = 'BOARD_1' style= "font-family: 굴림체;font-size: 9pt;"></div>		
+</TD>
+</TR>
+<TR>
+<TD>
+<a href = "scrap_insert.html"><img border = 0 src = "image\045.gif"> 자료추가</a>
+     
+	</TD><TD>
+     
+     <table width = 340 border="0" cellspacing="0">      
+     <TR>
+     <TD>
+     </DIV>
+     
+     <a href= "#" onclick='GetScrapData(-1, 1);' >검색(버튼)!</a> <input type=text name=query style='border-style:dotted; border-size; 1pt;background-color: #FFFFDD;width:197px;font-size:12px;font-family:돋움;'>
+   
+     </TD>
+     </TR>
+     </table>
+
+    </TD>
+    </TR>
+    <tr>
+        <td width="450" colspan="2"><p align="center"><font
+             face="굴림" size="2"></td>
+    </tr>
+    <tr>
+        <td style =" font-family: 굴림; 
+                     font-size: 10pt;" >
+                
+                
+            
+            </td>
+        <td align="center">
+            </td>
+    </tr>
+</table>
+
+
+<script language="JavaScript" src = "js/clock.js">
+</script>
+
+<br>
+
+<DIV id = 'BOARD_2' style= "font-family: 굴림체;font-size: 9pt;">		
+</DIV>
+
+<DIV id = 'BOARD_3' style= "font-family: 굴림체;font-size: 9pt;">		
+</DIV>
+
+<!-------------------------------------------------->
+<!-- MAIN 처리                                                                -->
+<!-------------------------------------------------->
+
+<!--
+     Data연동을 위한 보이지않는 변수컨 control 
+     URL 식으로 넘기면 Decode를 해주어야 하므로..
+     효율적관리를 위해 기본 컨트롤 지정함
+-->
+<textarea rows="12" id = 'RESULT' name="propose_body1" cols="60" 
+            style="font-family: 굴림체; display:none;
+		    background-color: #EEEEEE;font-size: 9pt; border: 3 solid #AAAAAA">
+            일반 API결과값저장
+</textarea>
+<textarea rows="12" id = 'FileRESULT' name="propose_body1" cols="60" 
+            style="font-family: 굴림체; display:none;
+		    background-color: #EEEEEE;font-size: 9pt; border: 3 solid #AAAAAA">
+            File API 결과값저장
+</textarea>
+<textarea rows="12" id = 'FileREAD' name="propose_body1" cols="60" 
+            style="font-family: 굴림체; display:none;
+		    background-color: #EEEEEE;font-size: 9pt; border: 3 solid #AAAAAA">
+            File Read 저장(Text Buffer)
+</textarea>
+<textarea rows="12" id = 'FileWrite' name="propose_body1" cols="60" 
+            style="font-family: 굴림체; display:none;
+		    background-color: #EEEEEE;font-size: 9pt; border: 3 solid #AAAAAA">
+            File Write 저장(Text Buffer)
+</textarea>
+<textarea rows="12" id = 'FileTarget' name="propose_body1" cols="60" 
+            style="font-family: 굴림체; display:none;
+		    background-color: #EEEEEE;font-size: 9pt; border: 3 solid #AAAAAA">
+            파일삭제나 복사시 타겟 파일명
+</textarea>
+<textarea rows="12" id = 'FileSource' name="propose_body1" cols="60" 
+            style="font-family: 굴림체; display:none;
+		    background-color: #EEEEEE;font-size: 9pt; border: 3 solid #AAAAAA">
+            복사시 소스 파일명
+</textarea>
+<textarea rows="12" id = 'FolderRESULT' name="propose_body1" cols="60" 
+            style="font-family: 굴림체; display:none;
+		    background-color: #EEEEEE;font-size: 9pt; border: 3 solid #AAAAAA">
+            폴더 API 결과값 저장
+</textarea>
+<textarea rows="12" id = 'FolderIN' name="propose_body1" cols="60" 
+            style="font-family: 굴림체; display:none;
+		    background-color: #EEEEEE;font-size: 9pt; border: 3 solid #AAAAAA">
+            폴더 API 파라메터 저장
+</textarea>
+
+<textarea rows="12" id = 'CGIRESULT' name="propose_body1" cols="60" 
+            style="font-family: 굴림체; display:none;
+		    background-color: #EEEEEE;font-size: 9pt; border: 3 solid #AAAAAA">
+            CGI 콘솔 Output 결과값 저장
+</textarea>
+
+<script language="JavaScript1.2" src = "res://AppLayer.dll/api.js"></script>
+<script language="JavaScript1.2" src = "scrap.js"></script>
+<script language="JavaScript1.2">
+    JMain(0, " ")
+</script>
+<br>
+<a href = "javascript:history.back()">돌아가기</a>
+</center>
+
+<script language="JavaScript1.2">
+function ProtectReflesh() {
+    var ieKey = event.keyCode;
+    if (ieKey == 116) event.keyCode = 07;
+}
+
+document.onkeydown = ProtectReflesh; 
+
+</script>
+</body>
+</html>

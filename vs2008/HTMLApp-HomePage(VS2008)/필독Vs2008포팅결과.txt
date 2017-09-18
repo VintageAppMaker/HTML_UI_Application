@@ -1,0 +1,23 @@
+작성일: 2010.03.31
+작성자: 박성완(adsloader@naver.com)
+
+참고사항:
+
+    1) 클래스 함수를 assign하는 법이 달라졌다
+
+#define  REG_PAGE_CLASS(_cls_, _html_) \
+	RegisterHTMLState(static_cast<FSM::Action>( &_cls_::OnPageReadEnd ), \
+	                  static_cast<FSM::Action>( &_cls_::OnPageClose ), \
+			  static_cast<FSM::Action>( &_cls_::OnPageCMD ), _html_); \
+
+    
+    --> 개체의 포인터를 넘기는 법은 사용못하고 클래스의 메소드 포인터를 넘기는 식으로 
+        넘겨야 되더라...ㅠㅠ
+
+	ex) CXXX cx;
+	    ...
+            주소 = cx.a(X)
+            주소 = &CXXX::a(0) 
+            
+            결과적으로 클래스별 함수로 관리해야한다.(VS6.0은 개체별 함수관리가 되었는데..쩝)
+            -> 생성자에 코드 넣어봤자 소용없다(생성도 안하고 쓸터인데 몰...ㅠㅠ)

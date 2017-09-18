@@ -1,0 +1,205 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<title>성완이 페이지</title>
+<meta name="generator" content="Namo WebEditor v3.0">
+<style type="text/css">
+    BODY{
+           background-image:  url(image/left.jpg);
+           font-family: 굴림; 
+           font-size: 8pt;
+           
+           background-color:  #AA99BB
+           scrollbar-3dlight-color:black;
+           scrollbar-arrow-color:gray;
+           scrollbar-base-color:black;
+           scrollbar-darkshadow-color:gray;
+           scrollbar-face-color:black;
+           scrollbar-highlight-color:gray;
+           scrollbar-shadow-color:white;
+    }
+    
+    A {
+           text-decoration: NONE;
+           font-family: 굴림; 
+           font-size: 9pt;
+           color: #777777; 
+    }
+    
+    A:hover {
+           cursor: hand;
+           text-decoration: UNDERLINE;
+           font-family: 굴림; 
+           font-size: 9pt; 
+           color: red;
+    }  
+    
+    UL {
+           position: relative;
+           list-style-type: disc;
+           font-family: 굴림; 
+           font-size: 10pt;
+           color: #007766;
+    } 
+    
+    listitem {
+           position: relative;
+           font-family: 굴림; 
+           font-size: 10pt;
+           color: yellow;
+    } 
+   
+    SPAN.yellow {
+          font-size: 10pt; 
+          font-weight: 700;
+          font-family: 'Arial Black';
+          color: #FDFFEF; 
+          letter-spacing: 0.3em;
+    }
+
+    SPAN.TITLE {
+          font-size: 20pt; 
+          font-weight: 700;
+          font-family: 'Arial Black';
+          color: #FccFec; 
+          letter-spacing: 0.3em;
+    }
+    
+    SPAN.black {
+          font-size: 10pt; 
+          font-weight: 600;
+          font-family: 돋움, Arial;
+          color: black;
+          text-decoration: underline;
+          letter-spacing: 1.7em;
+    }
+ 
+    SPAN.red {
+          font-size: 19pt;
+          font-weight: 600;
+          font-family: Arial;
+          font-style: italic;
+          color: red; 
+    }
+    
+    SPAN.URL {
+          font-size: 19pt;
+          font-weight: 600;
+          font-family: Arial;
+          font-style: italic;
+          color: white; 
+    }
+    
+    #MyTitle{
+           position: relative;
+           font-family: 굴림체;
+           font-size: 12pt;
+           text-decoration: BOLD;
+           background-color: white;
+           background-image: url(image/sw1.jpg);
+           width : 200;
+           
+    }
+</style>
+
+<style type="text/css">
+
+.main {
+width:190;
+border:1px solid black;
+}
+
+.month {
+background-color:black;
+font:bold 12px verdana;
+color:white;
+}
+
+.daysofweek {
+background-color:gray;
+font:bold 12px verdana;
+color:white;
+}
+
+.days {
+font-size: 12px;
+font-family:verdana;
+color:black;
+background-color: lightyellow;
+padding: 2px;
+}
+
+.days #today{
+font-weight: bold;
+color: red;
+}
+
+</style>
+
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="purple" alink="red">
+
+
+<!--화면 인트로 관련 JavaScript-->
+<br>
+<table border="0" cellspacing="1">
+    <TR><TD width = 600>
+        <div style = "font-size: 30px;text-decoration:BOLD;">I&nbsp&nbspNaver Blog 캡쳐</div>
+        <div style = "font-size: 11px;text-decoration:BOLD;">I&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp-불안정 베타버전(v0.32)</div>
+        <pre>
+        Naver Blog의 화면을 Jpeg로 캡쳐해 저장한다.
+        
+        * 파이썬 UI, MFC DLL로 개발.
+        * 특정 page는 캡쳐불가(ramdom) 
+        * 메모리 해제못함(page수 20 넘어가면 종료 권장) 
+        * 시작 page(최신)부터 ~ 마지막 page까지  
+        </pre>
+        <div id = "test" style='font-size:12px;font-family:돋움;color:#3f3aaa;'>
+        &nbsp&nbsp&nbsp&nbsp&nbsp
+        blog ID <input type=text name=query style='text-decoration:BOLD;border-style:dotted; border-size; 1pt;background-color: #FFFFDD;width:97px;font-size:12px;font-family:돋움;'>&nbsp
+        start <input type=text name=query2 style='text-decoration:BOLD;border-style:dotted; border-size; 1pt;background-color: #FFFFDD;width:37px;font-size:12px;font-family:돋움;'>
+        last <input type=text name=query3 style='text-decoration:BOLD;border-style:dotted; border-size; 1pt;background-color: #FFFFDD;width:37px;font-size:12px;font-family:돋움;'>
+        <a href= "#" onclick='location.href= "app:://Search|" + query.value +"|"+ query2.value +"|"+ query3.value; '><img src = "image/btn1.gif" border = 0> &nbsp가져오기</a>
+        </div>
+
+    <TD>
+        
+	</TD>
+    <TD>
+
+    </TD>
+    </TR>
+</table>
+<br>
+<br>
+<br>
+
+<BODY marginheight=0 topmargin=0  oncontextmenu="return false">
+<DIV id = 'BOARD_1' style= "font-family: 굴림체;font-size: 9pt;">		
+</DIV>
+
+<DIV id = 'BOARD_2' style= "font-family: 굴림체;font-size: 9pt;">		
+</DIV>
+
+<DIV id = 'BOARD_3' style= "font-family: 굴림체;font-size: 9pt;">		
+</DIV>
+
+<textarea rows="12" id = 'RESULT' name="propose_body1" cols="60" 
+            style="font-family: 굴림체; display:none;
+		    background-color: #EEEEEE;font-size: 9pt; border: 3 solid #AAAAAA">
+            Output 결과값 저장
+</textarea>
+
+<script language="JavaScript1.2">
+function ProtectReflesh() {
+    var ieKey = event.keyCode;
+    if (ieKey == 116) event.keyCode = 07;
+}
+
+document.onkeydown = ProtectReflesh; 
+
+</script>
+
+</body>
+</html>

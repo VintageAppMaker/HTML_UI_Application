@@ -1,0 +1,65 @@
+//---------------------------------------------------------------------------
+
+// 초간단 스마트포인트 
+
+ 
+
+template<class T>
+
+class smart_ptr
+
+{
+
+private:
+
+    T  *ptr;
+
+public:
+
+    smart_ptr(T * p) : ptr(p) { }
+
+    ~smart_ptr() { delete ptr; }
+
+    T * operator->() { return ptr; }
+
+    T & operator*()  { return *ptr; }
+
+    operator T*()    { return ptr; }
+
+};
+
+ 
+
+//---------------------------------------------------------------------------
+
+// 테스트
+
+ 
+
+void __fastcall TForm1::FormCreate(TObject *Sender)
+
+{
+
+    smart_ptr<TStringList> list(new TStringList);
+
+    list->Add("하하");
+
+    list->Add("호호");
+
+    list->Add("흐흐");
+
+    list->Add("허허");
+
+    list->Add("");
+
+    list->Add("박지성 화이팅");
+
+ 
+
+    Memo1->Lines = list;
+
+}
+
+//---------------------------------------------------------------------------
+
+// 실행결과

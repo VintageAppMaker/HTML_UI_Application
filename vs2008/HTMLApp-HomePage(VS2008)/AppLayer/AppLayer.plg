@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AppLayer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/AppLayer.res" /d "_DEBUG" "D:\빠르게진행하는개발과제\2010-03-31수 HTMLApp-HomePage(VS2008)\AppLayer\AppLayer.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP267.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_MBCS" /D "_USRDLL" /FR"Debug/" /Fp"Debug/AppLayer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\빠르게진행하는개발과제\2010-03-31수 HTMLApp-HomePage(VS2008)\AppLayer\AppLayer.cpp"
+"D:\빠르게진행하는개발과제\2010-03-31수 HTMLApp-HomePage(VS2008)\AppLayer\CPage.cpp"
+"D:\빠르게진행하는개발과제\2010-03-31수 HTMLApp-HomePage(VS2008)\AppLayer\HTML_UI_API.cpp"
+"D:\빠르게진행하는개발과제\2010-03-31수 HTMLApp-HomePage(VS2008)\AppLayer\Util.cpp"
+"D:\빠르게진행하는개발과제\2010-03-31수 HTMLApp-HomePage(VS2008)\AppLayer\CPageMain.cpp"
+"D:\빠르게진행하는개발과제\2010-03-31수 HTMLApp-HomePage(VS2008)\AppLayer\CHTMLPage.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP267.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP268.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_MBCS" /D "_USRDLL" /FR"Debug/" /Fp"Debug/AppLayer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\빠르게진행하는개발과제\2010-03-31수 HTMLApp-HomePage(VS2008)\AppLayer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP268.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP269.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/AppLayer.pdb" /debug /machine:I386 /def:".\AppLayer.def" /out:"..\output\AppLayer.dll" /implib:"Debug/AppLayer.lib" /pdbtype:sept 
+".\Debug\AppLayer.obj"
+".\Debug\StdAfx.obj"
+".\Debug\CPage.obj"
+".\Debug\HTML_UI_API.obj"
+".\Debug\Util.obj"
+".\Debug\CPageMain.obj"
+".\Debug\CHTMLPage.obj"
+".\Debug\AppLayer.res"
+"..\PSWLib\PSWCommonLib.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP269.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AppLayer.cpp
+d:\빠르게진행하는개발과제\2010-03-31수 htmlapp-homepage(vs2008)\applayer\fsm.h(56) : warning C4018: '<' : signed/unsigned mismatch
+CPage.cpp
+d:\빠르게진행하는개발과제\2010-03-31수 htmlapp-homepage(vs2008)\applayer\fsm.h(56) : warning C4018: '<' : signed/unsigned mismatch
+HTML_UI_API.cpp
+Util.cpp
+CPageMain.cpp
+d:\빠르게진행하는개발과제\2010-03-31수 htmlapp-homepage(vs2008)\applayer\fsm.h(56) : warning C4018: '<' : signed/unsigned mismatch
+D:\빠르게진행하는개발과제\2010-03-31수 HTMLApp-HomePage(VS2008)\AppLayer\CPageMain.cpp(431) : warning C4800: 'unsigned long' : forcing value to bool 'true' or 'false' (performance warning)
+D:\빠르게진행하는개발과제\2010-03-31수 HTMLApp-HomePage(VS2008)\AppLayer\CPageMain.cpp(432) : warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+D:\빠르게진행하는개발과제\2010-03-31수 HTMLApp-HomePage(VS2008)\AppLayer\CPageMain.cpp(433) : warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+CHTMLPage.cpp
+d:\빠르게진행하는개발과제\2010-03-31수 htmlapp-homepage(vs2008)\applayer\fsm.h(56) : warning C4018: '<' : signed/unsigned mismatch
+Generating Code...
+Linking...
+LINK : fatal error LNK1104: cannot open file "..\PSWLib\PSWCommonLib.lib"
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+AppLayer.dll - 1 error(s), 7 warning(s)
+</pre>
+</body>
+</html>
